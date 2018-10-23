@@ -1673,7 +1673,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1682,7 +1682,6 @@
 				OBJ_14 /* Dependencies */,
 				OBJ_400 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_58 /* PerfectHTTPServer 3.0.18 */ = {
@@ -2235,7 +2234,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2984,6 +2983,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -3005,6 +3005,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -3630,7 +3631,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-L/usr/local/Cellar/mysql@5.7/5.7.23/lib\n-L/usr/local/Cellar/mysql@5.7/5.7.23/lib\n",
+					"-L/usr/local/Cellar/mysql@5.7/5.7.23/lib",
 					"-lmysqlclient",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3660,7 +3661,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-L/usr/local/Cellar/mysql@5.7/5.7.23/lib\n-L/usr/local/Cellar/mysql@5.7/5.7.23/lib\n",
+					"-L/usr/local/Cellar/mysql@5.7/5.7.23/lib",
 					"-lmysqlclient",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
